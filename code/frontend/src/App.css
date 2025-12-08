@@ -1,0 +1,52 @@
+body {
+  background-image:linear-gradient(
+      rgba(230, 240, 255, 0.75),
+      rgba(215, 230, 250, 0.75)
+    ), url("./assets/hospitalBG.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* backdrop-filter: blur(4px); */
+  /* background: linear-gradient(135deg, #e0f2ff, #ffffff, #d4e4ff); */
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+}
+* ⭐ Glass-effect login card */
+.card {
+  background: rgba(255, 255, 255, 0.2);     /* Transparent white */
+  border-radius: 16px;
+  padding: 25px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(10px);             /* Frosted glass */
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  transition: 0.3s ease;
+}
+
+/* Hover effect (optional) */
+.card:hover {
+  background: rgba(255, 255, 255, 0.28);
+}
+
+/* Inputs styling */
+.form-control {
+  background: rgba(255, 255, 255, 0.6);
+  border: none;
+  padding: 12px;
+  border-radius: 8px;
+  outline: none;
+}
+
+.form-control:focus {
+  background: rgba(255, 255, 255, 0.9);
+  box-shadow: none;
+}
+
+/* Button */
+.btn-primary {
+  padding: 10px;
+  border-radius: 8px;
+  font-weight: 600;
+}
